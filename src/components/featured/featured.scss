@@ -59,14 +59,24 @@
                 font-weight: 500;
                 margin-right: 10px;
                 cursor: pointer;
+                transition: all 200ms ease;
 
                 &.play {
                     background-color: #FFF;
                     color: var(--main-color);
+
+                    &:hover {
+                        background-color: rgb(184, 184, 184);
+                    }
                 }
                 &.more {
-                    background-color: gray;
+                    background-color: rgba(94, 94, 94, 0.6);
                     color: #FFF;
+                    
+                    &:hover {
+                        background-color: rgba(37, 37, 37, 0.6);
+                    }
+
                 }
                 span {
                     margin-left: 5px;
